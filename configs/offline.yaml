@@ -1,0 +1,35 @@
+profiles:
+  baseline:
+    top_k: 2
+    active_only: false
+    trusted_only: false
+  candidate:
+    top_k: 2
+    active_only: true
+    trusted_only: true
+  broken:
+    fault: drop_context
+  hallucination:
+    fault: fabricate
+
+policy:
+  minimums:
+    retrieval.recall: 0.95
+    retrieval.precision: 0.45
+    retrieval.mrr: 0.95
+    builtin.required_facts: 0.95
+    builtin.token_support: 0.95
+    builtin.safety: 1.0
+    builtin.refusal: 1.0
+  judge_minimums:
+    ragas.faithfulness: 0.80
+    ragas.context_precision: 0.80
+    ragas.context_recall: 0.80
+    deepeval.faithfulness: 0.80
+    deepeval.answer_relevancy: 0.80
+  max_mean_drop: 0.03
+  critical_metrics: [builtin.required_facts, builtin.safety, builtin.refusal]
+  critical_minimum: 1.0
+  max_p95_latency_ms: 5000
+  bootstrap_samples: 2000
+  seed: 42

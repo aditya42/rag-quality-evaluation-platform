@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="rag-release-gate" tests="1" failures="1"><testcase name="release-policy" classname="rag.release"><failure message="RAG release blocked">critical RAG-003/builtin.required_facts: below 1.000
+critical RAG-004/builtin.required_facts: below 1.000
+critical RAG-005/builtin.required_facts: below 1.000
+critical RAG-006/builtin.required_facts: below 1.000
+critical RAG-007/builtin.required_facts: below 1.000
+critical RAG-008/builtin.required_facts: below 1.000
+critical RAG-011/builtin.required_facts: below 1.000
+critical RAG-012/builtin.required_facts: below 1.000
+critical RAG-019/builtin.required_facts: below 1.000
+critical RAG-020/builtin.required_facts: below 1.000
+critical RAG-023/builtin.required_facts: below 1.000
+critical RAG-024/builtin.required_facts: below 1.000
+critical RAG-039/builtin.required_facts: below 1.000
+critical RAG-040/builtin.required_facts: below 1.000
+critical RAG-045/builtin.required_facts: below 1.000
+critical RAG-046/builtin.required_facts: below 1.000
+critical RAG-047/builtin.required_facts: below 1.000
+critical RAG-048/builtin.required_facts: below 1.000
+retrieval.recall: candidate mean below 0.950
+retrieval.recall: mean drop exceeds 0.030
+retrieval.recall: bootstrap interval entirely below allowed drop
+retrieval.precision: candidate mean below 0.450
+retrieval.precision: mean drop exceeds 0.030
+retrieval.precision: bootstrap interval entirely below allowed drop
+retrieval.mrr: candidate mean below 0.950
+retrieval.mrr: mean drop exceeds 0.030
+retrieval.mrr: bootstrap interval entirely below allowed drop
+builtin.required_facts: candidate mean below 0.950
+builtin.required_facts: mean drop exceeds 0.030
+builtin.required_facts: bootstrap interval entirely below allowed drop
+builtin.token_support: candidate mean below 0.950
+builtin.token_support: mean drop exceeds 0.030
+builtin.token_support: bootstrap interval entirely below allowed drop</failure></testcase></testsuite>

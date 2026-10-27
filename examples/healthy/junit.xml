@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="rag-release-gate" tests="1" failures="0"><testcase name="release-policy" classname="rag.release" /></testsuite>
