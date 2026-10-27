@@ -4,7 +4,7 @@
 
 RAGAS · DeepEval · LangSmith · Python · BM25 · GitHub Actions
 
-Built for [`aditya42/rag-quality-evaluation-platform`](https://github.com/aditya42/rag-quality-evaluation-platform). This repository fills the RAG-specific evaluation gap alongside the existing general LLM evaluation and prompt regression projects.
+This repository fills the RAG-specific evaluation gap alongside the existing general LLM evaluation and prompt regression projects.
 
 ## What works in v0.1
 
