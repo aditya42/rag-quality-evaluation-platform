@@ -178,12 +178,11 @@ docs/                  architecture, dataset card, demo, portfolio positioning, 
 .github/workflows/     key-free CI and explicit hosted-judge workflow
 ```
 
-## Portfolio and resume
+## Portfolio
 
 Suggested project title: **RAG Evaluation & Release Quality Platform — RAGAS, DeepEval, LangSmith**.
 
-Once you have run and can explain it:
-
+Project Bullet 
 > Built a RAG regression evaluation platform integrating RAGAS and DeepEval, with optional LangSmith experiments, versioned evaluation datasets, paired baseline/candidate comparisons, and CI release gates for retrieval quality, groundedness, and critical failures.
 
 Use measured evidence from your own runs for numerical claims. The 48-case synthetic demo and fixture tests do not establish production adoption, validated judge accuracy, security guarantees, or a business-impact improvement.
